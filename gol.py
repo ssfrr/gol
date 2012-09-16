@@ -44,5 +44,3 @@ def cell_survives(world, cell):
 def cell_is_born(world, cell):
     living_neighbors = get_neighbors(cell) & world
     return len(living_neighbors) == 3
-
-
